@@ -33,7 +33,7 @@ CREATE TABLE Loans (
 );   
 
 
-select * from tab;
+-- select * from tab;
 show tables;
 
 select * from authors;
