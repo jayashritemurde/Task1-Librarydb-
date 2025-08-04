@@ -30,4 +30,13 @@ CREATE TABLE Loans (
     return_date DATE,
     FOREIGN KEY (book_id) REFERENCES Books(book_id),
     FOREIGN KEY (member_id) REFERENCES Members(member_id)
-);
+);   
+
+
+select * from tab;
+show tables;
+
+select * from authors;
+select * from books;
+select * from loans;
+select * from members;
