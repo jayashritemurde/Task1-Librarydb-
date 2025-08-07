@@ -47,3 +47,6 @@ INSERT INTO `librarydb`.`loans` (`member_id`, `name`, `email`, `join_date`) VALU
 
 update members set email='-' where member_id=49;
 update members set email='' where member_id=62;
+update members set join_date='2025-06-08' where member_id=59;
+update members set join_date='2025-07-30' where member_id=45;
+update members set join_date='2025-03-15' where member_id=60;
