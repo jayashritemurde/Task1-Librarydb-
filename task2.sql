@@ -24,6 +24,7 @@ INSERT INTO `librarydb`.`books` (`book_id`, `title`, `genre`, `publish_year`, `a
 update books set genre='Historical Fiction' where book_id=16;
 update books set publish_year=1995 where book_id=16;
 delete from books where author_id=102; 
+update books set genre='Mystery' where book_id=13;
 
 select * from librarydb.loans;
 INSERT INTO `librarydb`.`loans` (`loan_id`, `book_id`, `member_id`, `loan_date`, `return_date`) VALUES ('41', '14', '59', '2025-05-04', '2025-04-05');
